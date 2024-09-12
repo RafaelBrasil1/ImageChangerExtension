@@ -51,7 +51,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
 
 setInterval( () => {
-console.log('aaaa')
 if(JSON.parse(localStorage.changeImages)){
     let Imgelements = document.querySelectorAll('img');
 
